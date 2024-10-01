@@ -1,0 +1,28 @@
+/* Flexbox style for the Navbar */
+.navbar {
+    background-color: #333;
+    padding: 18px;
+    display: flex;
+    justify-content: center; /* Aligns navbar content in the center */
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 60px; /* Adds space between items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    border-radius: 5px;
+  }
+  
+  .navbar-item a:hover {
+    background-color: palevioletred;
+  }
+  

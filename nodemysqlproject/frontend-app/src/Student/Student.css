@@ -1,0 +1,83 @@
+
+.container {
+    background-image: url('./bg-2.jpg');
+   /* Semi-transparent white background */
+    max-width: 600px;
+    margin: 50px auto;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Added to enable flexbox alignment */
+    flex-direction: column;
+}
+
+/* Heading styles */
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+thead {
+    background-color: #6c757d; /* Darker shade for the header */
+}
+
+tbody tr {
+    background-color: #343a40; /* Darker rows for contrast */
+}
+
+tbody tr:hover {
+    background-color: #495057; /* Hover effect for table rows */
+}
+
+.btn-warning, .btn-danger {
+    margin-right: 5px;
+}
+
+/* Input field styles */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Button hover effect */
+.btn-primary:hover, 
+.btn-warning:hover, 
+.btn-danger:hover {
+    opacity: 0.8;
+}
+
+/* Reduce size of the input fields by specifying the width */
+.small-input {
+    width: 100%; /* Full width to maintain responsiveness */
+    max-width: 600px; /* Limit max width */
+    padding: 8px;
+    font-size: 16px; /* Consistent font size */
+}
+
+/* Table cell padding and font size */
+.small-table th, 
+.small-table td {
+    padding: 12px; /* More padding for better readability */
+    font-size: 16px; /* Consistent font size */
+    max-width: 100px;
+}
+
+/* Centering styles for page */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    text-align: center; /* Center text */
+}

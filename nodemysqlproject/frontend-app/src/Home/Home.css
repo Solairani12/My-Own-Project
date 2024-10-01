@@ -1,0 +1,18 @@
+/* Style to center the content */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Full height of the viewport */
+  text-align: center;
+  background-image: url('./images/bg1.jpg'); /* Add your background image here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Arial Narrow Bold', sans-serif,;
+}

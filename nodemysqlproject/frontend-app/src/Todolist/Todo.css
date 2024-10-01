@@ -1,0 +1,101 @@
+/* Main container for centering the to-do list */
+.todo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Wrapper to limit the width of the list */
+.todo-wrapper {
+    width: 200%;
+    max-width: 800px;
+    background-image: url('./bg-2.jpg'); /* Set your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Added to enable flexbox alignment */
+    flex-direction: column; /* Arrange items vertically */
+   /* Center items horizontally */
+   
+}
+
+/* Styling for the heading */
+h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form input styles */
+.form-floating {
+    width: 100%; /* Ensuring full width */
+    margin-bottom: 10px;
+}
+
+#todoInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Add Task Button */
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Space between button and list */
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Task list styles */
+.list-group {
+    width: 100%; /* Ensuring full width for the list */
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%; /* Ensuring full width for list items */
+}
+
+/* Checkbox styling */
+.form-check-input {
+    margin-right: 10px;
+}
+
+/* Completed task styles */
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete Button */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
