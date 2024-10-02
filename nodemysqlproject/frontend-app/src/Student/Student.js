@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from "react";
-import './Student.css';  // Import custom CSS file
+import './Student.css';  
 
 function Student() {
     const [id, setId] = useState('');
