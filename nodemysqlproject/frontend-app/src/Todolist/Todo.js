@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-import './Todo.css'; // Import the CSS file
+import './Todo.css'; 
 
 function TodoList() {
-  // State to hold the tasks
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState('');
-
-  // Function to add a task
-  const addTask = () => {
+   const addTask = () => {
     if (taskInput.trim() === '') {
       alert('Please enter a task!');
       return;
@@ -18,21 +15,15 @@ function TodoList() {
       text: taskInput,
       completed: false,
     };
-
-    // Update tasks state
     setTasks([...tasks, newTask]);
     setTaskInput(''); // Clear the input field
   };
-
-  // Function to handle checkbox change
-  const handleCheckboxChange = (taskId) => {
+ const handleCheckboxChange = (taskId) => {
     setTasks(tasks.map(task =>
       task.id === taskId ? { ...task, completed: !task.completed } : task
     ));
   };
-
-  // Function to delete a task
-  const deleteTask = (taskId) => {
+ const deleteTask = (taskId) => {
     setTasks(tasks.filter(task => task.id !== taskId));
   };
 
@@ -55,7 +46,7 @@ function TodoList() {
         </div>
         <button className="btn btn-success mb-3" onClick={addTask}>Add Task</button>
 
-        {/* Task List Display */}
+        {}
         <ul id="todoList" className="list-group">
           {tasks.map((task) => (
             <li key={task.id} className="list-group-item">
