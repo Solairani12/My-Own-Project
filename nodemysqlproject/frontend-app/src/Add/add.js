@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import './add.css'; 
 
 function Add() {
-  
   const [count, setCount] = useState(200);
-
-  
-  const updateDisplayStyle = () => {
+   const updateDisplayStyle = () => {
     if (count > 200) {
       return { backgroundColor: 'lightgreen' };
     } else if (count < 200) {
