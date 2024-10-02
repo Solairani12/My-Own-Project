@@ -1,83 +1,67 @@
-
 .container {
     background-image: url('./bg-2.jpg');
-   /* Semi-transparent white background */
     max-width: 600px;
     margin: 50px auto;
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
+    background-size: cover; 
+    background-position: center; 
     padding: 90px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    display: flex; /* Added to enable flexbox alignment */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
     flex-direction: column;
 }
-
-/* Heading styles */
 h3 {
     font-family: sans-serif;
     text-align: center;
     color: #333;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
-
-/* Table styles */
 table {
     width: 100%;
     margin-top: 30px;
     color: white;
-    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    border-collapse: collapse; 
 }
 
 thead {
-    background-color: #6c757d; /* Darker shade for the header */
+    background-color: #6c757d; 
 }
 
 tbody tr {
-    background-color: #343a40; /* Darker rows for contrast */
+    background-color: #343a40; 
 }
 
 tbody tr:hover {
-    background-color: #495057; /* Hover effect for table rows */
+    background-color: #495057; 
 }
 
 .btn-warning, .btn-danger {
     margin-right: 5px;
 }
-
-/* Input field styles */
 .form-control {
     margin-bottom: 10px;
 }
-
-/* Button hover effect */
 .btn-primary:hover, 
 .btn-warning:hover, 
 .btn-danger:hover {
     opacity: 0.8;
 }
-
-/* Reduce size of the input fields by specifying the width */
 .small-input {
-    width: 100%; /* Full width to maintain responsiveness */
-    max-width: 600px; /* Limit max width */
+    width: 100%; 
+    max-width: 600px; 
     padding: 8px;
-    font-size: 16px; /* Consistent font size */
+    font-size: 16px; 
 }
-
-/* Table cell padding and font size */
 .small-table th, 
 .small-table td {
-    padding: 12px; /* More padding for better readability */
-    font-size: 16px; /* Consistent font size */
+    padding: 12px; 
+    font-size: 16px; 
     max-width: 100px;
 }
-
-/* Centering styles for page */
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height of the viewport */
-    text-align: center; /* Center text */
+    height: 100vh; 
+    text-align: center; 
 }
