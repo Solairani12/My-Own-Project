@@ -16,6 +16,6 @@ CREATE THE NODEMYSQL
                                                    
 3.install the npm body-parser
                                                    
-4. install the Mysql
+4.install the Mysql
 
 5.create the database and tables in mysql database.
